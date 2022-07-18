@@ -2,5 +2,5 @@
 
 # python3
 export GLIBC_DISABLE_ENV=yes
-eval "optbin -s /opt/glibc/bin"
+#eval "optbin -s /opt/glibc/bin"
 
