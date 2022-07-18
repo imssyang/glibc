@@ -1,0 +1,11 @@
+apt install gawk
+
+cd glibc-2.33
+mkdir build; cd build
+../configure --prefix=/opt/glibc \
+  --sbindir=/opt/glibc/bin \
+  --libexecdir=/opt/glibc/lib \
+  --sysconfdir=/opt/glibc/conf
+
+
+
